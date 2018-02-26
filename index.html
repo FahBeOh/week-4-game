@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shape Collector!</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class ="container">
+        <div class ="row id" id ="spacer"></div>
+        <div class ="row">
+            <div class ="col-2"></div>
+            <div class ="col col-8">
+                <h1 class ="text-center"> Shape Collector!!!</h1>
+            </div>
+            <div class ="col-2"></div>
+        </div>
+        <div class ="row mt-0">
+            <div class =" col col-12">
+                 <h3 class ="text-center"> Instructions</h3>
+                    <p class ="text-center">You will be given a random number of points to achieve to start. <br> Clicking a shape below will give you a certain amount of points. <br> Meet the number to win, if you go over, you lose.</p>
+            </div>
+        </div>
+        <div class ="row mt-0">
+            <div class ="col-2"></div>
+            <div class ="col col-sm">
+                <h3>Goal: <span id ="goalKeeper"></span></h3>
+            </div>
+            <div class ="col">
+                <h3>Wins: <span id ="wins"></span></h3>
+                <h3>Loses: <span id ="loses"></span></h3>
+            </div>
+            <div class ="col">
+                <h3> Current Score: <br><span id ="scoreKeeper"></span></h3>
+            </div>
+            <div class ="col-2"></div>
+        </div>
+        <div class ="row mt-0">
+                <div class ="col-2"></div>
+                <div class ="col-2 text-center">
+                    <button type ="button" class="btn" id = "button0" value = 0>
+                            <img class ="img-thumbnail" alt = "star" src ="assets/images/triangle.png"></div>
+                    </button>
+                <div class ="col-2 text-center">
+                     <button type ="button" class="btn" id = "button1" value = 0>
+                            <img  class ="img-thumbnail" alt = "star" src ="assets/images/circle.png"></div>
+                    </button>
+                <div class ="col-2 text-center">
+                     <button type ="button" class="btn" id = "button2" value = 0>
+                             <img  class ="img-thumbnail" alt = "star" src ="assets/images/square.png"></div>
+                    </button>
+                 <div class ="col-2 text-center">
+                    <button type ="button" class="btn" id = "button3" value = 0>
+                            <img class ="img-thumbnail" alt = "star" src ="assets/images/star.png"></div>
+                    </button>
+                <div class ="col-2"></div>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
